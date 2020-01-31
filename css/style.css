@@ -1,0 +1,308 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+.badge, .jumbotron, .list-group .list-group-item, .navbar, .navbar-toggler {
+  border-radius: 0;
+}
+
+.pull-left {
+  float: none;
+}
+.bg-navbar {
+  background-color: #3f51b5;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: left;
+}
+.logo-navbar {
+  max-width: 85px;
+  max-height: 85px;
+  display:block;
+  margin:auto;
+}
+.nav-item {
+  padding-left: 15px;
+  font-size: 1.2rem;
+}
+.btn-text {
+  color: #3f51b5;
+  font-weight: bold;
+}
+.origen-logo {
+  margin-top: 10px;
+  max-width: 30px;
+  max-height: 30px;
+}
+.my-search-button {
+  color: #3f51b5;
+  background-color: #fff;
+}
+.navbar.navbar-dark .breadcrumb .nav-item.active>.nav-link, .navbar.navbar-dark .navbar-nav .nav-item.active>.nav-link {
+    background-color: #3f51b5;
+}
+.hero-unit {
+  padding: 2%;
+  background-color: #f0f0f0;
+}
+/* form destino */
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+.danger-text {
+    color: #ff3547; }
+.default-text {
+    color: #2BBBAD;
+}
+.info-text {
+    color: #33b5e5;
+}
+.form-white .md-form label {
+  color: #fff;
+}
+.form-white input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #fff;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+.form-white input[type=text]:focus:not([readonly]) + label {
+    color: #fff;
+}
+.form-white input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #fff;
+    -webkit-box-shadow: 0 1px 0 0 #fff;
+    box-shadow: 0 1px 0 0 #fff;
+}
+.form-white input[type=password]:focus:not([readonly]) + label {
+    color: #fff;
+}
+.form-white input[type=password], .form-white input[type=text] {
+    border-bottom: 1px solid #fff;
+}
+.form-white .form-control:focus {
+    color: #fff;
+}
+.form-white .form-control {
+    color: #fff;
+}
+.form-white textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+    color: #fff;
+}
+.form-white textarea.md-textarea  {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.form-white textarea.md-textarea:focus:not([readonly])+label {
+    color: #fff;
+}
+.ripe-malinka-gradient {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.near-moon-gradient {
+    background-image: linear-gradient(to bottom, #5ee7df 0%, #b490ca 100%);
+}
+.indigo {
+    background-color: #3f51b5!important;
+}
+.form-control::placeholder {
+  color: white;
+  opacity: .67;
+}
+.form-control::placeholder {
+  color: white;
+  opacity: .67;
+}
+.calendar-container {
+  display: inline-flex;
+}
+.global-container {
+  background-image: url("../img/index-img.jpg");
+  padding: 20px;
+  background-size: cover;
+}
+.btn-secondary.dropdown-toggle {
+  background-color: #4285f4!important;
+}
+.btn-secondary.dropdown-toggle:hover {
+    background-color: #4285f4!important;
+}
+.btn-secondary {
+    background-color: #4285f4!important;
+}
+.btn-secondary.active, .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+    background-color: #4285f4!important;
+}
+.btn-secondary.active, .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+    background-color: #4285f4!important;
+}
+.btn-secondary.dropdown-toggle {
+    width: 100%;
+    background-color: #4285f4!important;
+}
+.btn-secondary.dropdown-toggle:focus, .btn-secondary.dropdown-toggle:hover {
+    background-color: #4285f4!important;
+}
+.dropdown, .dropleft, .dropright, .dropup {
+    position: relative;
+    padding-left: 40px;
+}
+.bono {
+  display:run-in;
+}
+.calendar {
+  margin-left: 1rem;
+}
+.form-white input[type=password] {
+    border-bottom: 1px solid #fff;
+    width: 100%;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+}
+.md-form input {
+  padding-left: 10px;
+}
+.info-container{
+  max-width: 100%;
+}
+.card {
+  margin: 10px;
+  padding: 5px;
+  height: 100%;
+}
+.card-block {
+  padding-top: 10%;
+  padding: 5%;
+}
+.card-img-top {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+}
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 20px;
+}
+.footer-copyright a {
+  margin-bottom: 15px;
+}
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: auto;
+    line-height: 50px;
+    color: rgba(255,255,255,.6);
+    background-color: rgba(0,0,0,.2);
+    text-align: center;
+    font-size: .9rem;
+}
+.text-uppercase {
+  font-weight: bold;
+}
+.btn-danger:last-child {
+  float: left;
+}
+@media
+only screen and (max-width: 1200px) {
+  .form-inline .form-control {
+      display: inline-block;
+      width: 100%;
+      vertical-align: middle;
+  }
+  .my-search-button {
+      color: #3f51b5;
+      background-color: #fff;
+      width: 100%;
+      margin-top: 3%;
+  }
+  .mr-sm-2 {
+          width: 100%;
+  }
+  .col-md-6 {
+    max-width: 100%;
+  }
+  .info-container {
+    display: contents;
+  }
+}
+@media
+only screen and (max-width: 1000px) {
+  .form-inline .form-control {
+      display: inline-block;
+      width: 100%;
+      vertical-align: middle;
+  }
+  .my-search-button {
+      color: #3f51b5;
+      background-color: #fff;
+      width: 100%;
+      margin-top: 3%;
+  }
+  .mr-sm-2 {
+          width: 100%;
+  }
+  .col-md-6 {
+    max-width: 100%;
+  }
+  .info-container {
+    display: contents;
+  }
+}
+.blue {
+    background-color: #3f51b5!important;
+}
+.btn-primary {
+    background-color: #3f51b5;
+}
+[type="date"] {
+  background:#fff url("../img/date-picker-logo.png")  97% 50% no-repeat;
+  background-size: 20px;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+@media
+only screen and (max-width: 600px) {
+  .global-container {
+    background-color: #f0f0f0;
+    background-image: none;
+    padding: 5px;
+  }
+  .calendar-container {
+    display: block;
+  }
+  .form-white input[type=password] {
+    border-bottom: 1px solid #fff;
+    max-width: 87%;
+  }
+}
+
+@media
+only screen and (max-width: 450px) {
+  .global-container {
+    background-color: #f0f0f0;
+    background-image: none;
+    padding: 5px;
+  }
+  .calendar-container {
+    display: block;
+  }
+  .form-white input[type=password] {
+    border-bottom: 1px solid #fff;
+    max-width: 85%;
+  }
+}
